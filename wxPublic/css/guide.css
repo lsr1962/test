@@ -1,0 +1,183 @@
+.header {
+    width: 100%;
+    height: 23.3rem;
+    background: #ecedee;
+    position: relative;
+    max-width: 750px;
+    margin: 0 auto
+}
+
+.banner {
+    position: absolute;
+    top: 50%;
+    margin-top: -8rem;
+    left: 50%;
+    margin-left: -8rem;
+    border-radius: 15.9rem;
+    width: 15.9rem;
+    height: 15.9rem
+}
+
+.banner-toggle {
+    background: #22ac38 url(../img/ico_toggle.png) no-repeat 50%;
+    background-size: 15.9rem 15.9rem
+}
+
+.banner-scan {
+    background: #22ac38 url(../img/ico_scan.png) no-repeat 50%;
+    background-size: 15.9rem 15.9rem
+}
+
+.banner-app {
+    background: #22ac38 url(../img/ico_app.png) no-repeat 50%;
+    background-size: 15.9rem 15.9rem
+}
+
+.banner-creditcard {
+    background: #22ac38 url(../img/icon_creditcard.png) no-repeat 50%;
+    background-size: 15.9rem 15.9rem
+}
+
+.banner-txt {
+    text-align: center;
+    color: #fff;
+    line-height: 22.7rem;
+    font-size: 1.8rem
+}
+
+.main {
+    margin: 0 auto;
+    max-width: 750px;
+    width: 32rem
+}
+
+.tutor-title {
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #333;
+    display: inline-block;
+    margin: 3rem auto 3rem 1rem
+}
+
+.tutor-detal {
+    padding: 0 1.8rem 0 1.2rem
+}
+
+.tutor-item {
+    position: relative;
+    overflow: hidden
+}
+
+.tutor-item-title {
+    width: 100%;
+    font-weight: 700;
+    text-align: left;
+    font-size: 1.8rem
+}
+
+.num {
+    font-size: 1.8rem;
+    color: #007DE7;
+    border: .2rem solid #007DE7;
+    width: 2.3rem;
+    height: 2.3rem;
+    display: inline-block;
+    border-radius: 9.9rem;
+    vertical-align: baseline;
+    line-height: 2.3rem;
+    font-style: normal;
+    /*margin-right: 1rem;*/
+    text-align: center;
+    background-color: #fff
+}
+
+.ico-succeed {
+    background-image: url(../img/ico_right.svg);
+    background-size: 1.6rem auto;
+    background-position: 50%;
+    background-repeat: no-repeat
+}
+
+.tutor-content {
+    padding-top: .7rem;
+    padding-bottom: 5.2rem
+}
+
+.tutor-content .txt {
+    font-size: 1rem;
+    padding-left: 3.7rem;
+    color: #333;
+    line-height: 1.8rem
+}
+
+.tutor-link {
+    color: #007DE7
+}
+
+.line {
+    position: absolute;
+    /* border-width: .2rem; */
+    height: 999.9rem;
+    /* border-color: #22ac38; */
+    top: 2.6rem;
+    left: 1.3rem;
+    border: 0.1rem dashed #007DE7;
+}
+
+.cnt-link {
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto
+}
+
+.cnt-btn {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 5rem 0 12rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    overflow: hidden
+}
+
+.cnt-btn a {
+    display: block
+}
+
+.cnt-btn-tips {
+    padding: 1.7rem 0;
+    border: .2rem dashed #ddd;
+    color: #2f78cb
+}
+
+.cnt-btn-tips span {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400
+}
+
+.cnt-btn span {
+    display: block
+}
+.banner-guide-yj {
+    height: 148px;
+    margin: 1rem;
+    margin-bottom: 0;
+    background: url(../img/yj_guide_top.png) no-repeat 100%;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.text1-guide-yj {
+    padding-top: 0.5rem;;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.text2-guide-yj {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+/*  |xGv00|952e47d3a8bcf12463792c5a2e4e51f9 */

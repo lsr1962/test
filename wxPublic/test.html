@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <link rel="shortcut icon" type="image/x-icon" href="http://www.yjiatech.com/wxPublic/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./css/global.css">
+    <link rel="stylesheet" type="text/css" href="./css/guide.css">
+    <title>测试</title>
+</head>
+<body>
+
+<div class="banner-guide-yj">
+    <img src="./img/ico_gongzhonghao.svg"/>
+    <div class="text1-guide-yj">测试主标题</div>
+    <div class="text2-guide-yj">测试副标题</div>
+</div>
+
+<div class="main">
+    <h3 class="tutor-title">测试内容标题</h3>
+    <ol class="tutor-detal">
+<li class="tutor-item">
+    <h2 class="tutor-item-title">
+        <i class="num">1</i>
+        步骤1
+    </h2>
+    <div class="tutor-content">
+        <p class="txt">步骤1步骤1步骤1步骤1步骤1步骤1步骤1步骤1步骤1</p>
+        <p class="txt" style="padding-top: 1rem;"><img style="width: 100%;" src="./img/test_1.png"/></p>
+    </div>
+    <div class="line"></div>
+</li>
+<li class="tutor-item">
+    <h2 class="tutor-item-title">
+        <i class="num">2</i>
+        步骤2
+    </h2>
+    <div class="tutor-content">
+        <p class="txt">步骤2步骤2步骤2步骤2步骤2步骤2步骤2步骤2步骤2</p>
+        <p class="txt" style="padding-top: 1rem;"><img style="width: 100%;" src="./img/test_2.png"/></p>
+    </div>
+    <div class="line"></div>
+</li>
+<li class="tutor-item">
+    <h2 class="tutor-item-title">
+        <i class="num">3</i>
+        步骤3
+    </h2>
+    <div class="tutor-content">
+        <p class="txt">步骤3步骤3步骤3步骤3步骤3步骤3步骤3步骤3</p>
+        <p class="txt" style="padding-top: 1rem;"><img style="width: 100%;" src="./img/test_3.png"/></p>
+    </div>
+    <div class="line"></div>
+</li>
+<li class="tutor-item">
+    <h2 class="tutor-item-title">
+        <i class="num">4</i>
+        步骤4
+    </h2>
+    <div class="tutor-content">
+        <p class="txt">步骤4步骤4步骤4步骤4步骤4步骤4步骤4</p>
+        <p class="txt" style="padding-top: 1rem;"><img style="width: 100%;" src="./img/test_4.png"/></p>
+    </div>
+    <div class="line"></div>
+</li>
+</ol>
+</div>
+<script type="text/javascript" src="./js/global.js"></script>
+<script type="text/javascript">
+    //微信分享
+    setShareConfig(
+        //朋友圈标题
+        '微信支付|接入指南--' + document.title,
+        //好友消息标题
+        '微信支付|接入指南--' + document.title,
+        //分享出去的描述
+        '为您提供各平台微信支付接入流程指引',
+        //分享的图标链接
+        '//wx.gtimg.com/static/merchant/img/shareico/wepay.702e4529.png',
+        //分享到朋友圈的链接
+        location.href,
+        //发送给好友消息的链接
+        location.href,
+        //分享到朋友圈点击流
+        function(){
+            pgvSendClick({hottag:"wxzf.merchant.guide_publicaccount.timeline"})
+        },
+        //分享给好友点击流
+        function(){
+            pgvSendClick({hottag:"wxzf.merchant.guide_publicaccount.appmessage"})
+        }
+    );
+</script>
+</body>
+</html>
