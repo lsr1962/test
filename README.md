@@ -1,6 +1,6 @@
 # test
 
-> A Vue.js project
+> A HtmlMaker project created based on Vue.js
 
 ## Build Setup
 
